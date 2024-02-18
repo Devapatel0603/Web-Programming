@@ -1,0 +1,84 @@
+<!-- 
+Create User Registration Form in HTML (Suggested to use fields like Name, Date of Birth, Gender,
+Email Id, Mobile No., Address, State, Education, Image Upload etc) using textbox, textarea, checkbox,
+radio button, select box, button, file upload etc.
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <main>
+        
+      <section class="login">
+         
+         <div class="content">
+         
+             <form action="/register" class="loginform" method="POST">
+                 <h1>Sign up</h1>
+
+                 <div class="email">
+                    <input type="text" placeholder="Name"/>
+                </div>
+
+                <div class="dm">
+                    <input class="date" type="date"/>
+                    <input class="mno" type="tel" placeholder="Mobile No."/>
+                </div>
+
+                <div class="email">
+                    <input type="text" placeholder="Address"/>
+                </div>
+                 
+                 <div class="email">
+                  <input type="email" placeholder="Email Address"/>
+                 </div>
+
+                 <div class="email">
+                    <input type="file" accept="image/*">
+                 </div>
+                 
+                 <div class="password">
+                  <input type="password" id="passwordField" placeholder="Password">
+                 </div>
+
+                 
+                 <div class="button">
+                     <button type="submit" class="ln-btn">Submit</button>
+                 </div>
+
+                 <div class="or"></div>
+
+                 
+                 <div class="smedia">
+                    <a target="_blank" href="https://www.linkedin.com/in/devpatel0603"><i class='bx bxl-linkedin' ></i></a>
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100069775989397"><i class='bx bxl-facebook' ></i></a>
+                    <a target="_blank" href="https://instagram.com/devpatel5435?igshid=YTQwZjQ0NmI0OA=="><i class='bx bxl-instagram' ></i></box-icon></a>
+                    <a target="_blank" href="https://github.com/Devapatel0603"><i class='bx bxl-github' ></i></a>
+                    <a target="_blank" href="mailto:devapatel0603@gmail.com"><i class='bx bxl-gmail' ></i></a>
+                </div>
+                    
+                 <div class="already">
+                     Already have an account?
+                     <a href="/login" class="newUser">Login</a>
+                 </div>
+
+             </form>
+         </div>
+     </section>
+       
+    </main>
+    
+
+</body>
+</html>
