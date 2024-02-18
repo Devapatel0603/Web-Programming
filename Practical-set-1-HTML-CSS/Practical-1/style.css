@@ -1,0 +1,250 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: rgb(104, 100, 100);
+}
+
+body{
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container{
+   width: 37vw;
+   height: 98vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   border: 1px solid black;
+}
+
+.bigbox{
+   display: flex;
+   align-items: center;
+   height: 80%;
+   width: 100%;
+}
+
+.box-1{
+   width: 35%;
+   height: 100%;
+   background-color: #0ef;
+   padding-left: 3.5%;
+   padding-right: 3.5%;
+}
+
+.title-2{
+   width: 100%;
+   font-size: 80%;
+   height: 10%;
+   color: white;
+   border-bottom: 2px solid white;
+   margin-bottom: 4%;
+}
+
+.name-2{
+   margin-bottom: 7.5%;
+}
+
+.name-2 h6, .name-2 p, .name-3 h6, .name-3 p{
+   color: white;
+}
+
+.name-2 h6, .name-3 h6{
+   font-size: 70%;
+   font-weight: 900;
+   margin-bottom: 2px;
+}
+
+.name-2 h5{
+   font-size: 75%;
+   font-weight: 900;
+   margin-bottom: 2px;
+}
+
+.name-2 h5 a{
+   text-decoration: none;
+   color: white;
+}
+
+.name-2 p, .name-3 p{
+   font-size: 65%;
+   text-align: justify;
+}
+
+.name-2 p a, .name-3 p a{
+   text-decoration: none;
+   color: white;
+   font-size: 83%;
+   text-align: justify;
+}
+
+.box-2{
+   width: 65%;
+   height: 100%;
+}
+
+.name{
+   height: 20%;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding-left: 5%;
+}
+
+.edu{
+   height: 21%;
+   width: 100%;
+   padding-left: 5%;
+   padding-right: 5%;
+}
+
+.title{
+   width: 100%;
+   font-size: 80%;
+   height: 20px;
+   color: #0ef;
+   border-bottom: 2px solid #0ef;
+}
+
+.contain{
+   height: calc(100% - 20px);
+}
+
+.cs{
+   width: 100%;
+   height: 50%;
+   display: flex;
+}
+
+.time{
+   height: 100%;
+   width: 30%;
+   font-size: 66%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.school{
+   height: 100%;
+   width: 70%;;
+   font-size: 61%;
+   display: flex;
+   justify-content: center;
+   align-items: start;
+   flex-direction: column;
+}
+
+.project{
+   height: 31%;
+   width: 100%;;
+   padding-left: 5%;
+   padding-right: 5%;
+}
+
+.cs-1 h6, .cs-2 h6{
+   font-size:100%;
+   margin-bottom: 5px;
+}
+
+a{
+   text-decoration: underline;
+   color: rgb(104, 100, 100);
+}
+
+a:hover{
+   box-shadow: 0 0 2px rgb(104, 100, 100);
+}
+
+.cs-1{
+   width: 100%;
+   height: 39%;
+   display: flex;
+   flex-direction: column;
+   font-size: 58%;
+   text-align: justify;
+   padding-top: 7px;
+}
+
+.cs-2{
+   width: 100%;
+   height: 61%;
+   display: flex;
+   flex-direction: column;
+   font-size: 58%;
+   text-align: justify;
+   padding-top: 7px;
+}
+
+.space-between{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.skills{
+   height: 28%;
+   width: 100%;;
+   padding-left: 5%;
+   padding-right: 5%;
+}
+
+.contain-1{
+   display: flex;
+   height: calc(100% - 20px);
+}
+
+li{
+   font-size: 63%;
+   margin-left: 10px;
+}
+
+.cs-4{
+   width: 50%;
+   height: 100%;
+}
+
+.cs-5{
+   width: 50%;
+   height: 100%;
+}
+
+ul{
+   padding-left: 5%;
+}
+
+.box-3{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 15%;
+   width: 100%;
+   background-color: #0ef;
+}
+
+.last-box{
+   width: 85%;
+   height: 17px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.name-3{
+   display: flex;
+   align-items: center;
+}
+
+/* <---------------------------------Responsiv-------------------------------------> */
+
+@media only screen and (max-width : 768px) {
+   .container{
+      width: 95%;
+   }
+}
