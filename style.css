@@ -25,6 +25,7 @@ body{
     align-items: center;
     height: 85dvh;
     width: 100%;
+    margin-top: 30px;
 }
 
 .boxes{
@@ -39,14 +40,13 @@ body{
 .box{
     border: 1.7px solid purple;
     border-radius: 12px;
-    height: 95px;
-    width: 150px;
+    height: 50px;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 5.8px;
-    margin-bottom: 5%;
+    margin-bottom: 15px;
     background-color:rgb(222, 244, 244);
     transition: transform .28s linear;
 }
