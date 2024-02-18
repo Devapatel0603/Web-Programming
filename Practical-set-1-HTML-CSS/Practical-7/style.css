@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: url("https://wallpapers.com/images/hd/ahmedabad-hindu-akshardham-complex-zteovijge7w2modk.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.container h1 {
+    font-size: 120px;
+    font-weight: 900;
+}
+
+.container p {
+    font-size: 32px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.img-container {
+    width: 300px;
+    height: 500px;
+}
+
+::selection {
+    background: #0ef;
+    text-shadow: 0 0 10px rgba(0,0,0,.4);
+}
+
+.gallery-2{
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.gallery-2 h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 38px;
+    border-top: 2px solid gray;
+    width: 95dvw;
+}
+
+.gallery {
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    background-color: aliceblue;
+}
+
+.gallery h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 38px;
+    border-top: 2px solid gray;
+    width: 95dvw;
+} 
+
+.img-container {
+    width: 310px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid grey;
+    height: auto;
+    box-shadow: 0 0 10px  rgba(0,0,0,.4);
+    cursor: pointer;
+    transition: scale  .25s linear;
+}
+
+.img-container:hover {
+    scale: 1.03;
+}
+
+.img-container img {
+    height: 290px;
+    width: 290px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.img-container p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+    flex-wrap: wrap;
+}
