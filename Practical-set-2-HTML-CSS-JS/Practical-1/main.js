@@ -12,6 +12,6 @@ btn.forEach(e => {
     })
 });
 
-function calc(){
+function calculate(){
     sc.innerHTML = eval(sc.textContent);
 }
