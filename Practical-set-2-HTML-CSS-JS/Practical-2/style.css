@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: rgb(205, 222, 237);
 }
 
 body{
@@ -17,6 +18,7 @@ body{
     height: 70%;
     border: 3px solid gray;
     padding: 2%;
+    background: white;
 }
 
 .screen{
@@ -29,6 +31,7 @@ body{
     font-size: 30px;
     text-align: right;
     overflow: hidden;
+    background: white;
 }
 
 .btns{
@@ -40,7 +43,7 @@ body{
 
 .btn-design{
     cursor: pointer;
-    background-color: aliceblue;
+    background-color: rgb(216, 183, 219);
 }
 
 .btn-design:hover, .btn-ac:hover{
@@ -56,6 +59,6 @@ body{
 
 .btn-ac{
     width: calc(100% / 3);
-    background-color: aliceblue;
+    background-color: rgb(216, 183, 219);
     cursor: pointer;
 }
