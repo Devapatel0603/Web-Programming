@@ -19,13 +19,12 @@ btn.forEach(e => {
                         break;
                     }
                 }
-
-                if(sct[i] === "-"){
+                if(sct[i-1] === "("){
+                    sc.innerHTML = sct.substring(0,i-1) + sct.substring(i+1,sct.length-1);
+                }else if(sct[i] === "-"){
                     sc.innerHTML = sct.substring(0,i+1) + "(-" + sct.substring(i+1,sct.length) + ")"
                 }else if(sct[i+1] != "-"){
                     sc.innerHTML = sct.substring(0,i+1) + "-" + sct.substring(i+1,sct.length);
-                }else if(sct[i] === "-"){
-                    sc.innerHTML = sct.substring(0,i+1) + "(-" + sct.substring(i+2,sct.length) + ")"
                 }else{
                     sc.innerHTML = sct.substring(0,i+1) + sct.substring(i+2,sct.length);
                 }
