@@ -1,0 +1,56 @@
+<!-- Use Registration Form from practical number 4 to store user registration
+details in MySql database. On submission next page displays all registration data in
+in html table using php. Also provide feature to update and delete the registration
+data. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+  <img src="./pexels-francesco-ungaro-1525041.jpg" alt="">
+  <main>
+    <h1>Registration Form</h1>
+    <form action="store.php" method="post" enctype="multipart/formdata">
+      <div class="name">
+        <input type="text" name="name" id="name" placeholder="Enter
+your name" required>
+      </div>
+      <div class="birthdate">
+        <input type="date" name="dob" id="dob" max="2024-1-31" min="1990-01-01" required />
+      </div>
+      <div class="gender">
+        <label>Gender</label>
+        <input type="radio" id="male" name="gender" value="Male"><label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female"><label for="female">Female</label>
+      </div>
+      <div class="email">
+        <input type="email" name="email" id="email" placeholder="Email" required>
+      </div>
+      <div class="phone">
+        <input type="tel" id="phone" name="phone" placeholder="Phone" required>
+      </div>
+      <div class="document">
+        <input type="file" id="photo" name="file" id="file">
+      </div>
+      <div class="country">
+        <select name="country" id="country" required>
+          <option value="" disabled selected>Country</option>
+          <option value="India">India</option>
+          <option value="Russia">Russia</option>
+          <option value="USA">USA</option>
+          <option value="UK">United Kingdom</option>
+        </select>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+</body>
+
+</html>
