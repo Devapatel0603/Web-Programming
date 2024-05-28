@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today's Date</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100dvh;
+        }
+
+        h1 {
+            font-size: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="date-today"></h1>
+    </div>
+    <script>
+        function todaysDate() {
+            const date = new Date();
+            document.querySelector("#date-today").innerHTML =
+                `${date.toLocaleDateString()}, ${date.toLocaleTimeString("en-US")}`;
+        }
+        setInterval(todaysDate, 1000);
+    </script>
+</body>
+
+</html>
