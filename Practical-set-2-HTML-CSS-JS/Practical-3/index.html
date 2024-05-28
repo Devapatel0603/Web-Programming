@@ -1,0 +1,75 @@
+<!-- Write a java script code to combine and display the information in textbox when
+the button is clicked use registration page that you created in Practical No.4. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <img src="./pexels-francesco-ungaro-1525041.jpg" alt="">
+    <main>
+        <h1>Registration Form</h1>
+        <form>
+            <div class="name">
+                <input type="text" name="name" id="name" placeholder="Enter your
+name" required>
+            </div>
+            <div class="birthdate">
+                <input type="date" name="dob" id="dob" max="2024-1-31" min="1990-
+01-01" required />
+            </div>
+            <div class="gender">
+                <label>Gender</label><input type="radio" id="male" name="gender" value="Male"><label
+                    for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="Female"><label for="female">Female</label>
+            </div>
+            <div class="email">
+                <input type="email" name="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="phone">
+                <input type="tel" id="phone" name="phone" placeholder="Phone" required>
+            </div>
+            <div class="document">
+                <input type="file" id="photo" name="file" id="file">
+            </div>
+            <div class="country">
+                <select name="country" id="country" required>
+                    <option value="" disabled selected>Country</option>
+                    <option value="India">India</option>
+                    <option value="Russia">Russia</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">United Kingdom</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Australia">Australia</option>
+                </select>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <div class="output">
+            <div class="image">
+                <img src="" id="profile_image" alt="">
+            </div>
+            <div class="details">
+                <div class="head">
+                    <div>Name : </div>
+                    <div>Birthdate : </div>
+                    <div>Email : </div>
+                    <div>Phone : </div>
+                    <div>Gender : </div>
+                    <div>Country : </div>
+                </div>
+                <div class="content">
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
