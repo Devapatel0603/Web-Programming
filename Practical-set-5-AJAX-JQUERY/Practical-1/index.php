@@ -1,3 +1,6 @@
+<!-- Using AJAX Create visual search feature to search using name for practical
+number 15 which list name, mobile number and email id of matching users. -->
+
 <!DOCTYPE html>
 <html lang="en">
 
